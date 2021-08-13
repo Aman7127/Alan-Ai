@@ -1,0 +1,46 @@
+import {makeStyles} from "@material-ui/core/styles" ;
+
+const styles =  makeStyles ({
+    media : {
+        height : 250
+    },
+
+    border: {
+    border: 'solid',
+    },
+
+    fullHeightCard: {
+    height: '50%',
+     },
+
+
+    card: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    borderBottom: '10px solid white',
+     },
+     activeCard:
+      {
+             borderBottom: '10px solid #7FC8A9',
+    },
+     grid: {
+    display: 'flex',
+         },
+    details:
+     {
+    display: 'flex',
+    justifyContent: 'space-between',
+    margin: '20px',
+     },
+     title: {
+    padding: '0 16px',
+     },
+     cardActions: {
+    padding: '0 16px 8px 16px',
+    display: 'flex',
+    justifyContent: 'space-between'
+     },
+});
+
+export default styles;
