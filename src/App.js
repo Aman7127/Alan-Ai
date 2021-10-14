@@ -1,3 +1,4 @@
+// @ts-nocheck
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import React, {useState , useEffect} from 'react';
@@ -5,6 +6,9 @@ import alanBtn from "@alan-ai/alan-sdk-web";
 import NewsCards from "./components/newscards/NewsCards";
 import useStyles from './styles';
 import wordsToNumbers from "words-to-numbers";
+import "./index.css";
+
+
 
 export const App = () => {
 
@@ -40,15 +44,23 @@ export const App = () => {
         })
     }, []);
 
- 
+     const style = {
+                fontSize : "50px",
+                
+           }
 
+
+           
 
     return (
+      
+       
+      
         <div>
             <div className={classes.logoContainer}>
-                <img src="https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" className={classes.alanLogo} alt="logo" />
-            </div>
+            <h1 style={{color : " #eeeeee" , paddingTop : "20px" , fontSize : "5rem"}}> Xenon Virtual Assistant</h1>
             
+            </div>
             <NewsCards articles={newsarticles} activearticles={activearticles}/>
         </div>
     );

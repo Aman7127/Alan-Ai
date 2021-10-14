@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+
 #root ,body ,html {
     height : 100vh;
 }
 
 body {
     margin : 0;
-    background-color : #FFEACA
+    background-color : #455d7a
 }
 *{
     box-sizing : border-box;
@@ -12,4 +17,10 @@ body {
 
 html{
     scroll-behavior: smooth;
+}
+
+h1{
+    font-size : 50px ;
+     font-family: 'Tourney', cursive;
+
 }

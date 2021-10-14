@@ -16,14 +16,18 @@ export default  makeStyles(
             height : "50vh",
             padding : "10%",
             borderRadius : "10%",
-            color : "White"
+            color : "White",
+            borderStyle: "solid",
+            /*boxShadow : "0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19)"*/
+            boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
         },
         infocard : {
             display : "flex",
             flexDirection : "column",
             textAlign : "center",
-           /* boxShadow : "0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19)"*/
-           borderStyle: "solid"
+            marginTop : "20px"
+            
+           /*borderStyle: "solid"*/
         }
     }
 );

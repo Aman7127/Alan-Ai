@@ -1,6 +1,7 @@
 
 import { makeStyles } from '@material-ui/core/styles';
 
+
 export default makeStyles((theme) => ({
   footer: {
     textAlign: 'center',
@@ -55,7 +56,7 @@ export default makeStyles((theme) => ({
     },
   },
   logoContainer: {
-    padding: '0 5%',
+    padding: '0%',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
